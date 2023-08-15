@@ -1,4 +1,4 @@
-import 'package:dw_barbershop/src/core/ui/constrants.dart';
+import 'package:dw_barbershop/src/core/ui/constants.dart';
 import 'package:flutter/material.dart';
 
 sealed class BarbershopTheme {
@@ -6,7 +6,7 @@ sealed class BarbershopTheme {
     borderRadius: BorderRadius.all(
       Radius.circular(8),
     ),
-    borderSide: BorderSide(color: ColorsConstrants.grey),
+    borderSide: BorderSide(color: ColorsConstants.grey),
   );
 
   static ThemeData themeData = ThemeData(
@@ -14,23 +14,23 @@ sealed class BarbershopTheme {
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
       fillColor: Colors.white,
-      labelStyle: const TextStyle(color: ColorsConstrants.grey),
+      labelStyle: const TextStyle(color: ColorsConstants.grey),
       border: _defaultInputBorder,
       enabledBorder: _defaultInputBorder,
       focusedBorder: _defaultInputBorder,
       errorBorder: _defaultInputBorder.copyWith(
-        borderSide: const BorderSide(color: ColorsConstrants.red),
+        borderSide: const BorderSide(color: ColorsConstants.red),
       ),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         foregroundColor: Colors.white,
-        backgroundColor: ColorsConstrants.brown,
+        backgroundColor: ColorsConstants.brown,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(8),
         ),
       ),
     ),
-    fontFamily: FontConstrants.fontFamily,
+    fontFamily: FontConstants.fontFamily,
   );
 }

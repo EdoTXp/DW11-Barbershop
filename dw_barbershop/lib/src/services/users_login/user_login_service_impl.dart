@@ -4,7 +4,7 @@ import 'package:dw_barbershop/src/core/exceptions/auth_exception.dart';
 import 'package:dw_barbershop/src/core/exceptions/service_exception.dart';
 import 'package:dw_barbershop/src/core/fp/either.dart';
 import 'package:dw_barbershop/src/core/fp/nil.dart';
-import 'package:dw_barbershop/src/repositories/user_repository.dart';
+import 'package:dw_barbershop/src/repositories/user/user_repository.dart';
 import 'package:dw_barbershop/src/services/users_login/user_login_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
