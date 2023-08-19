@@ -113,13 +113,13 @@ class HomeHeader extends ConsumerWidget {
             ),
           ),
           Offstage(
-            offstage: !hideFilter,
+            offstage: hideFilter,
             child: const SizedBox(
               height: 24,
             ),
           ),
           Offstage(
-            offstage: !hideFilter,
+            offstage: hideFilter,
             child: TextFormField(
               decoration: const InputDecoration(
                 label: Text('Buscar Colaborador'),
